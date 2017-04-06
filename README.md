@@ -51,12 +51,16 @@ command used to solicit a sonnet from the software:
 
 ``runMe`` will be called with two arguments:
 
-1. the path to a UTF-8 encoded text file containing an incomplete short story.
+1. the path to a UTF-8 encoded plain text file containing an incomplete short story.
 2. a random positive integer (for reproducibility, if you are using a random seed)
 
 The second argument may be ignored. It is provided for contestants who have
 designed software that makes use of a random seed to achieve deterministic
 results.
+
+An example short story is found in this repository,
+[example-short-story.txt](example-short-story.txt). (The story is "The Cloak"
+by Nikolay V. Gogol.)
 
 Assuming the local directory is the temporary directory into which the
 submission archive has been extracted, the following is an example of the shell
