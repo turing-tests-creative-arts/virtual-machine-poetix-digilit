@@ -30,7 +30,7 @@ executable will be run with arguments that depend on the competition.
 
 ### Arguments passed to ``runMe`` in PoetiX
 
-In PoetiX, ``runMe`` will be called with two arguments:
+``runMe`` will be called with two arguments:
 
 1. a noun or noun-phrase (e.g., "solitude", "red wheelbarrow")
 2. a random positive integer (for reproducibility, if you are using a random seed)
@@ -49,7 +49,7 @@ command used to solicit a sonnet from the software:
 
 ### Arguments passed to ``runMe`` in DigiLit
 
-In PoetiX, ``runMe`` will be called with two arguments:
+``runMe`` will be called with two arguments:
 
 1. the path to a UTF-8 encoded text file containing an incomplete short story.
 2. a random positive integer (for reproducibility, if you are using a random seed)
